@@ -30,7 +30,7 @@
             <value>60</value>
         </property>
     </bean>
-	
+	<!-- 어어어어 -->
 	<!-- Exception 발생시 후처리용 별도작업을 위해 실행환경의 LeveaTrace를 활용하도록 설정 -->
 	<bean id="leaveaTrace" class="egovframework.rte.fdl.cmmn.trace.LeaveaTrace">
 		<property name="traceHandlerServices">
