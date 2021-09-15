@@ -3,7 +3,7 @@
 
 <sqlMap namespace="Temp">
 
-<typeAlias alias="TempVO" type="egovframework.let.temp.service.TempVO"></typeAlias>
+<typeAlias alias="tempVO" type="egovframework.let.temp.service.TempVO"></typeAlias>
 
 	<resultMap id="temp" class="egovframework.let.temp.service.TempVO">
 		<result property="tempId" column="TEMP_ID"></result>

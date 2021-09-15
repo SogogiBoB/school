@@ -1,13 +1,18 @@
 package egovframework.let.temp.service;
 
-public class TempVO {
+import java.io.Serializable;
 
-	private int tempId;
+import egovframework.com.cmm.ComDefaultVO;
+
+public class TempVO extends ComDefaultVO implements Serializable {
+
+	private String tempId;
 	private String tempVal;
-	public int getTempId() {
+	
+	public String getTempId() {
 		return tempId;
 	}
-	public void setTempId(int tempId) {
+	public void setTempId(String tempId) {
 		this.tempId = tempId;
 	}
 	public String getTempVal() {

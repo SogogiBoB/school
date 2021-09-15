@@ -5,4 +5,5 @@
 
 <sqlMapConfig>
 	<sqlMap resource="egovframework/sqlmap/let/temp/Temp_SQL_Mysql.xml" /> 
+    
 </sqlMapConfig>
